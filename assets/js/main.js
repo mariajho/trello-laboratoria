@@ -1,12 +1,13 @@
-/*function añadir(){
-	var lista=document.getElementById("lista").value;
-	document.getElementById("tareas").value="";
+
+window.onload=function(){
+	document.getElementById("botonLista").addEventListener("click", agregar);
 }
 
-var contenedor = document.getElementById("contenedor").value;
-var cont=document.getElementById("contenedor").value;
+function añadir(){
+	var lista=document.getElementById("lista").value;
+	document.getElementById("lista").value="";
 
-function retornarLista(){
-	var imprimir=document.getElementById("lista").inner.HTML
-}*/
+var contenedor = document.getElementById("contenedor");
+var cont=document.getElementById("contenedor");
+}
 
